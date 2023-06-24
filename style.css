@@ -1,0 +1,52 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+#navbar{
+    border: 2px solid white;
+}
+
+#navbar img{
+    height: 50px;
+    width: 50px;
+    border: 2px solid white;
+    border-radius: 20%;
+}
+
+#navbar ul{
+    display: flex;
+    list-style-type: none;
+}
+
+#navbar ul li{
+    margin: 15px;
+    border: 3px solid white;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+#navbar ul li:hover{
+    font-size: 20px;
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+@keyframes example{
+    10% {border-color: white;}
+    20% {border-color: red;}
+    50% {border-color: blue;}
+    100% {border-color: green;}
+}
+
+.border-animation{
+    animation: example 10s infinite;
+}
+
+div{
+    padding: 100px;
+}

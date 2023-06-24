@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>About CSS</title>
+    <link rel="stylesheet" href="style3.css">
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="prism.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+    <nav class="border-animation" id="navbar">
+        <ul>
+            <img class="border-animation" src="logo.png">
+            <li class="border-animation"><a href="#about_css">About</a></li>
+            <li class="border-animation"><a href="#how_to_write">How to Write</a></li>
+            <li class="border-animation"><a href="index.html">Home Page</a></li>
+        </ul>
+        <br><br>
+    </nav>
+    <center>
+        <h1 class="border-animation" style="border: 3px solid white;">CSS</h1>
+        <br>
+        <div class="border-animation" style="border: 2px solid white;" id="about_css">
+            <h1>About CSS</h1>
+            <br><br>
+            <img style="border: 2px solid white; border-radius: 10px;" class="border-animation" src="css.png">
+            <br>
+            <p>Cascading Style Sheets is a style sheet language used for describing the presentation of a document
+                written in a markup language such as HTML or XML. CSS is a cornerstone technology of the World Wide Web,
+                alongside HTML and JavaScript.</p>
+        </div>
+        <br><br><br>
+        <div id="how_to_write" class="border-animation" style="border: 2px solid white;">
+            <br>
+            <h1>How To Write</h1>
+            <ol>
+                <li>To style a element
+                    <pre class="language-css">
+
+                        <code>
+    element&#123;
+    &#125;                            
+                        </code>
+                    </pre></li>
+                <li>To set color of body red
+                    <pre class="language-css">
+    
+                        <code>
+    body&#123;
+        background-color&#58;red;
+    &#125;                            
+                        </code>
+                    </pre></li>    
+                <li>To set color of h1 red
+                    <pre class="language-css">
+        
+                        <code>
+    h1&#123;
+      color&#58;red;
+    &#125;                            
+                        </code>
+                    </pre></li>
+                <li>To add animation to a div border for infinite
+                    <pre class="language-css">
+            
+                        <code>
+    div&#123;
+        border&#58;2px solid black;
+        animation&#58;example 2s infinite;
+    &#125; 
+    
+    &#x40;keyframes example&#123;
+        from&#123;border-color&#58;black;&#125;
+        to&#123;border-color&#58;yellow;&#125;
+    &#125;
+                        </code>
+                    </pre></li>
+                <li>To style a id
+                    <pre class="language-css">
+                
+                        <code>
+    &#35;navbar&#123;
+    &#125; 
+                        </code>
+                    </pre></li>
+                <li>To style a class
+                    <pre class="language-css">
+                    
+                        <code>
+    &#46;box&#123;
+    &#125; 
+                            </code>
+                    </pre></li>
+                <li>To giving padding and margin to an element
+                    <pre class="language-css">
+                        
+                        <code>
+    element&#123;
+       padding&#58;10px;
+       margin&#58;10px;
+    &#125; 
+                            </code>
+                        </pre></li>                                            
+        </div>
+        <p>To know more click on this link:- </p><a href="https://www.w3schools.com/css/default.asp" target="_blank">W3 School</a>
+    </center>
+</body>
+<script src="prism.js"></script>
+
+</html>
